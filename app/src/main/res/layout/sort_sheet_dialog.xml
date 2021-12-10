@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    tools:context=".custom_dialog.SortSheetDialog">
+
+    <TextView
+        android:id="@+id/tv_date_new"
+        android:text="Date(newest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:drawablePadding="24dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_date_old"
+        android:text="Date(oldest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:drawablePadding="24dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_size_large"
+        android:text="Size(largest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:drawablePadding="24dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_size_small"
+        android:text="Size(smallest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:drawablePadding="24dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_duration_large"
+        android:text="Duration(longest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:drawablePadding="24dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_duration_short"
+        android:text="Duration(shortest first)"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:drawablePadding="24dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
